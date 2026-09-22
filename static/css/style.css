@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.barra-navegacion {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.contenedor-principal {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.tarjeta-perfil {
+    width: 220px;
+    flex-shrink: 0;
+    background-color: white;
+    border: 2px solid #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.boton-perfil {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.muro-publicaciones {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+.titulo-publicaciones {
+    margin-bottom: 20px;
+}
+
+.publicacion {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.publicacion:last-child {
+    margin-bottom: 0;
+}
+
+.cabecera-publicacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.seccion-me-gusta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boton-me-gusta {
+    background-color: #ffeb3b;
+    border: 1px solid #333;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
